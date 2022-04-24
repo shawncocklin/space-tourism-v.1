@@ -1,0 +1,30 @@
+:root {
+
+  /* colors */
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+
+  /* font sizes */
+  --fs-xs: .875rem;   /*14px*/
+  --fs-300: 1rem;     /*16px*/
+  --fs-400: 1.125rem; /*18px*/
+  --fs-600: 1.5rem;   /*24px*/
+  --fs-800: 1.75rem;  /*28px*/
+  --fs-900: 2rem;     /*32px*/
+  --fs-lg: 3.5rem;    /*56px*/
+  --fs-xl: 6.25rem;   /*100px*/
+  --fs-xxl: 9.375rem; /*150px*/
+
+  /* font families */
+  --ff-serif: 'Bellefair', serif;
+  --ff-sans-headings: 'Barlow Condensed', sans-serif;
+  --ff-sans-body: 'Barlow', sans-serif;
+
+  /* letter spacing */
+  --ls-narrow: 2.35px;
+  --ls-medium: 2.7px;
+  --ls-large: 4.75px;
+
+
+}

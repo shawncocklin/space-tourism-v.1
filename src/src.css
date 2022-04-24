@@ -1,0 +1,7 @@
+@import 'css-partials/abstracts/root.css';
+@import 'css-partials/base/reset.css';
+@import 'css-partials/abstracts/typography.css';
+@import 'css-partials/abstracts/colors.css';
+@import 'css-partials/utilities/utilities.css';
+@import 'css-partials/utilities/buttons.css';
+@import 'css-partials/base/base.css';
