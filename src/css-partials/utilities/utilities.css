@@ -31,9 +31,9 @@
 }
 
 .container {
-  padding-inline: var(--spacer, 1rem);
+  padding-inline: var(--padding, 1rem);
   margin-inline: auto;
-  max-width: var(--width, 60rem);
+  max-width: calc(100% - var(--padding, 10rem));
 }
 
 .flow > *:where(:not(:first-child))  {
