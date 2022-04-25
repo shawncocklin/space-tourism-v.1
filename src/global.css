@@ -74,6 +74,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.7;
+  overflow: hidden;
 }
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -226,7 +227,7 @@ select {
 .container {
   padding-inline: var(--padding, 1rem);
   margin-inline: auto;
-  max-width: calc(100% - var(--padding, 10rem));
+  max-width: min(calc(100% - var(--padding, 1rem)), var(--width, 60rem));
 }
 .flow > *:where(:not(:first-child))  {
   margin-top: var(--spacer, 1rem);
@@ -337,7 +338,8 @@ select {
   color: hsl(var(--clr-white));
 }
 body {
-  /* background-color: red; */
+  background-image: url('./assets/home/background-home-desktop.jpg');
+  background-size: cover;
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white));
   font-family: var(--ff-sans-body);

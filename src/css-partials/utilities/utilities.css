@@ -33,7 +33,7 @@
 .container {
   padding-inline: var(--padding, 1rem);
   margin-inline: auto;
-  max-width: calc(100% - var(--padding, 10rem));
+  max-width: min(calc(100% - var(--padding, 1rem)), var(--width, 60rem));
 }
 
 .flow > *:where(:not(:first-child))  {

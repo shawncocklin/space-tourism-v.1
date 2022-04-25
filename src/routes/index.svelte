@@ -2,7 +2,7 @@
 	import '../global.css'
 </script>
 
-<div class="landing-text">
+<div class="landing-text flow" style="--spacer: 2em;">
 	<h1 class="font-sans fs-800 uppercase letter-gap-lg">
 		so, you want to travel to <span class="font-serif fs-xxl">space</span>
 	</h1>
@@ -18,12 +18,13 @@
 
 <style>
 	.landing-text {
-		grid-column: 2 / span 1;
+		max-width: 450px;
 	}
+
 	.landing-btn {
-		grid-column: 4 / span 1;
-		align-self: flex-end;
+		margin-top: 4rem;
 	}
+
 	span {
 		display: block;
 	}
