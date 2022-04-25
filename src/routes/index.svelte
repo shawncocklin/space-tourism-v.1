@@ -3,8 +3,8 @@
 </script>
 
 <div class="landing-text flow" style="--spacer: 2em;">
-	<h1 class="font-sans fs-800 uppercase letter-gap-lg">
-		so, you want to travel to <span class="font-serif fs-xxl">space</span>
+	<h1 class="font-sans fs-800 text-light uppercase letter-gap-lg">
+		so, you want to travel to <span class="font-serif text-white fs-xxl">space</span>
 	</h1>
 	<p class="text-light fs-400">
 		Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not
@@ -13,7 +13,9 @@
 	</p>
 </div>
 <div class="landing-btn">
-	<button class="btn-large font-serif fs-900 uppercase">explore</button>
+	<a href="/destinations" class="btn-large link fs-900 font-serif uppercase bg-white text-dark"
+		>explore</a
+	>
 </div>
 
 <style>
