@@ -51,6 +51,10 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.7;
   overflow: hidden;
+
+  /* display: grid; */
+  /* c */
+  
 }
 
 /* A elements that don't have a class get default styles */

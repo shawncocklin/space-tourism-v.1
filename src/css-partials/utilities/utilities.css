@@ -30,10 +30,32 @@
   gap: var(--gap, 1rem);
 }
 
+.grid-body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: min-content 1fr minmax(4rem, 8rem);
+  gap: var(--gap, 1rem);
+  border: 3px solid green;
+}
+
 .container {
-  padding-inline: var(--padding, 1rem);
+  padding-inline: 2em;
   margin-inline: auto;
-  max-width: min(calc(100% - var(--padding, 1rem)), var(--width, 60rem));
+  max-width: min(calc(100% - 2em), var(--width, 80rem));
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(2em, 1fr) repeat(2, minmax(0, 40rem)) minmax(2em, 1fr);
+  gap: var(--container-gap, 1rem);
+}
+
+.grid-container > *:first-child {
+  grid-column: 2 / span 1;
+}
+
+.grid-container > *:last-child {
+  grid-column: 3 / span 1;
 }
 
 .flow > *:where(:not(:first-child))  {

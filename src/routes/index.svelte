@@ -21,10 +21,12 @@
 <style>
 	.landing-text {
 		max-width: 450px;
+		align-self: flex-end;
 	}
 
 	.landing-btn {
-		margin-top: 4rem;
+		align-self: flex-end;
+		margin-left: auto;
 	}
 
 	span {

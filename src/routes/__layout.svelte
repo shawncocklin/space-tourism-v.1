@@ -3,14 +3,12 @@
 </script>
 
 <Nav />
-<main class="container flex" style="--width: 100rem;">
+<main class="grid-container">
 	<slot><!-- optional fallback --></slot>
 </main>
 
 <style>
-	.container {
-		height: 100vh;
-		justify-content: space-between;
-		align-items: center;
+	.grid-container {
+		--container-gap: 3rem;
 	}
 </style>

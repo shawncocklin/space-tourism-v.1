@@ -1,4 +1,4 @@
-<div class="" style="--spacer: 2rem;">
+<header class="" style="--spacer: 2rem;">
 	<nav class="bg-white-muted" style="padding: 2rem 0;">
 		<ul class="main-nav state-indicators flex justify-between">
 			<li class="active">
@@ -23,4 +23,4 @@
 			</li>
 		</ul>
 	</nav>
-</div>
+</header>
