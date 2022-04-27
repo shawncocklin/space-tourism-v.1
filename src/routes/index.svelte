@@ -1,5 +1,4 @@
 <script>
-	import '../global.css'
 </script>
 
 <div class="landing-text flow" style="--spacer: 2em;">

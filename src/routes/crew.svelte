@@ -1,2 +1,10 @@
+<script>
+</script>
+
 <h1>Crew</h1>
-<slot><!-- optional fallback --></slot>
+
+<style>
+	:global(body) {
+		background-image: url('../assets/crew/background-crew-desktop.jpg');
+	}
+</style>

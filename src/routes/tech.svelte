@@ -1,2 +1,7 @@
 <h1>Technology</h1>
-<slot><!-- optional fallback --></slot>
+
+<style>
+	:global(body) {
+		background-image: url('../assets/technology/background-technology-desktop.jpg');
+	}
+</style>
