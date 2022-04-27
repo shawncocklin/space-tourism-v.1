@@ -35,7 +35,7 @@
   display: grid;
   grid-template-rows: min-content 1fr minmax(4rem, 8rem);
   gap: var(--gap, 1rem);
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 
 .container {

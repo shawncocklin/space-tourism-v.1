@@ -19,6 +19,9 @@
 </div>
 
 <style>
+	:global(body) {
+		background-image: url('../assets/home/background-home-desktop.jpg');
+	}
 	.landing-text {
 		max-width: 450px;
 		align-self: flex-end;

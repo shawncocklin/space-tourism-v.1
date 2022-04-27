@@ -234,7 +234,7 @@ select {
   grid-template-rows: -webkit-min-content 1fr minmax(4rem, 8rem);
   grid-template-rows: min-content 1fr minmax(4rem, 8rem);
   gap: var(--gap, 1rem);
-  border: 3px solid green;
+  /* border: 3px solid green; */
 }
 .container {
   padding-inline: 2em;
@@ -361,7 +361,7 @@ select {
   color: hsl(var(--clr-white));
 }
 body {
-  background-image: url('./assets/home/background-home-desktop.jpg');
+  /* background-image: url('./assets/home/background-home-desktop.jpg'); */
   background-size: cover;
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white));
