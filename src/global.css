@@ -361,7 +361,6 @@ select {
   color: hsl(var(--clr-white));
 }
 body {
-  /* background-image: url('./assets/home/background-home-desktop.jpg'); */
   background-size: cover;
   background-color: hsl(var(--clr-dark));
   color: hsl(var(--clr-white));

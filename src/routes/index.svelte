@@ -1,4 +1,7 @@
 <script>
+	import { setBackground } from '../lib/utils'
+
+	setBackground("url('./src/assets/home/background-home-desktop.jpg')")
 </script>
 
 <div class="landing-text flow" style="--spacer: 2em;">
@@ -18,9 +21,6 @@
 </div>
 
 <style>
-	:global(body) {
-		background-image: url('../assets/home/background-home-desktop.jpg');
-	}
 	.landing-text {
 		max-width: 450px;
 		align-self: flex-end;

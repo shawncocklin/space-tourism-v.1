@@ -1,3 +1,9 @@
+<script>
+	import { setBackground } from '../lib/utils'
+
+	setBackground("url('./src/assets/destination/background-destination-desktop.jpg')")
+</script>
+
 <h1 class="font-sans fs-800 uppercase letter-gap-lg">
 	<span class="text-white-muted bold" style="margin-right: 1em;">01</span> pick your destination
 </h1>
@@ -48,9 +54,6 @@
 </section>
 
 <style>
-	:global(body) {
-		background-image: url('../assets/destination/background-destination-desktop.jpg');
-	}
 	img {
 		grid-column: 2 / span 1;
 	}
