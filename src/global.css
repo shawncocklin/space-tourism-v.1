@@ -296,7 +296,7 @@ select {
 
 }
 .btn-large:hover::after,
-.btn-large:focus::after {
+.btn-large:focus-visible::after {
   transform: scale(1.5);
   opacity: 1;
 }
@@ -311,7 +311,7 @@ select {
   --indicator-alpha: 1;
 }
 .state-indicators *:hover,
-.state-indicators *:focus {
+.state-indicators *:focus-visible {
   --indicator-alpha: .25;
 }
 .tab-nav {
